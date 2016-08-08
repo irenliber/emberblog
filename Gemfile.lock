@@ -20,6 +20,8 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    active-model-adapter-source (2.1.1)
+      ember-data-source (>= 1.13, < 3.0)
     active_model_serializers (0.10.2)
       actionpack (>= 4.1, < 6)
       activemodel (>= 4.1, < 6)
@@ -66,6 +68,9 @@ GEM
       html_page (~> 0.1.0)
       railties (>= 3.2, < 5)
     ember-cli-rails-assets (0.6.2)
+    ember-data-source (2.7.0)
+      ember-source (>= 2, < 3.0)
+    ember-source (2.7.0)
     erubis (2.7.0)
     execjs (2.7.0)
     factory_girl (4.7.0)
@@ -189,6 +194,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active-model-adapter-source
   active_model_serializers (~> 0.10.0)
   byebug
   coffee-rails (~> 4.1.0)
