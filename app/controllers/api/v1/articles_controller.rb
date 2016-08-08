@@ -15,15 +15,21 @@ module Api
       end
 
       def show
-
+        @article = Article.find(params[:id])
+        respond_with @article
       end
 
       def update
+        @article = Article.find(params[:id])
+        @article.update(article_params)
+        respond_with @article, location: false
 
       end
 
       def destroy
-
+        @article = Article.find(params[:id])
+        @article.destroy
+        respond_with @article
       end
 
       private
