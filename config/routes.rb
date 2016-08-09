@@ -6,4 +6,5 @@ Rails.application.routes.draw do
     end
   end
 
+  mount_ember_app :frontend, to: "/"
 end
