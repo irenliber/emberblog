@@ -1,0 +1,9 @@
+.menu
+  ul
+    li
+      link-to 'articles'
+        | Articles
+    li
+      link-to '/'
+        | Home
+= outlet
