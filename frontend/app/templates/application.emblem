@@ -1,7 +1,7 @@
 .menu
   ul
     li
-      link-to 'articles'
+      link-to 'articles.index'
         | Articles
     li
       link-to 'articles.new'
