@@ -22,11 +22,8 @@ GEM
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
     active-model-adapter-source (2.1.1)
       ember-data-source (>= 1.13, < 3.0)
-    active_model_serializers (0.10.2)
-      actionpack (>= 4.1, < 6)
-      activemodel (>= 4.1, < 6)
-      jsonapi (~> 0.1.1.beta2)
-      railties (>= 4.1, < 6)
+    active_model_serializers (0.8.3)
+      activemodel (>= 3.0)
     activejob (4.2.6)
       activesupport (= 4.2.6)
       globalid (>= 0.3.0)
@@ -90,8 +87,6 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
-    jsonapi (0.1.1.beta2)
-      json (~> 1.8)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -195,7 +190,7 @@ PLATFORMS
 
 DEPENDENCIES
   active-model-adapter-source
-  active_model_serializers (~> 0.10.0)
+  active_model_serializers (~> 0.8.0)
   byebug
   coffee-rails (~> 4.1.0)
   ember-cli-rails
