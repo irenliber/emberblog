@@ -4,6 +4,11 @@
       link-to 'articles'
         | Articles
     li
+      link-to 'articles.new'
+        | New
+    li
       link-to '/'
         | Home
+
+
 = outlet
