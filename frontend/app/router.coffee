@@ -8,7 +8,8 @@ Router = Ember.Router.extend
 Router.map ->
   @route 'articles', ->
     @route 'new'
-  @route 'article', path: ':id'
+  @route 'article', path: 'articles/:id', ->
+    @route 'edit'
 
   @route '/'
 
