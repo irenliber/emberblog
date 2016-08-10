@@ -1,0 +1,11 @@
+h3 Edit Article
+= a
+form{action 'save' on='submit'}
+  .field
+    label Title
+    = input value=model.title
+  .field
+    label Text
+    = input value=model.body
+  button type='submit'
+    | Save
