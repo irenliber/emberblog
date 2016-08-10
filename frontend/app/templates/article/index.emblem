@@ -1,0 +1,9 @@
+h3 Post Show
+h2 = model.title
+p = model.body
+
+button{action "delete"} Delete
+link-to 'article.edit'
+  | edit
+
+
