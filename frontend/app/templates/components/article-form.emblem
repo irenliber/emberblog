@@ -1,0 +1,10 @@
+= title
+form{action 'save' on='submit'}
+  .field
+    label Title
+    = input value=article.title
+  .field
+    label Text
+    = input value=article.body
+  button type='submit'
+    | Save
